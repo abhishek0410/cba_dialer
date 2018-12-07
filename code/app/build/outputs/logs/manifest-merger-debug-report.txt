@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:2:1-74:12
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
 MERGED from [com.android.support:design:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/57348c44e49a403aa4d34a115f536bfa/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/6a5289df4168d06f6be3d0a658b5c2c5/AndroidManifest.xml:17:1-22:12
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/mss/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/9c6424cbef5dfe829517ceef67128ee0/AndroidManifest.xml:2:1-13:12
@@ -30,37 +30,37 @@ MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/mss/.gradle/caches/tr
 MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/544235c4c6b00e230cf0763f3d9986db/AndroidManifest.xml:2:1-13:12
 MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/5254324f15b186efa2a3c6d5121e65b2/AndroidManifest.xml:22:1-33:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/05e421eb0aa905821e4aa4317d487204/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
 	package
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:3:5-35
-		INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
-		INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
-		INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
-		INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_CALL_LOG
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:7:5-73
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:7:5-73
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:7:22-70
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:7:22-70
 uses-permission#android.permission.bind_accessibility_service
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:8:5-85
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:8:5-85
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:8:22-82
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:8:22-82
 uses-permission#android.permission.CALL_PHONE
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:9:5-69
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:9:5-69
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:9:22-66
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:9:22-66
 uses-permission#android.permission.INTERNET
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:10:5-67
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:10:5-67
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/54f06c3bcf6fc41f5e559e86581adfae/AndroidManifest.xml:9:5-67
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/54f06c3bcf6fc41f5e559e86581adfae/AndroidManifest.xml:9:5-67
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/456eee9997fb07101a50751ff10753e5/AndroidManifest.xml:52:5-67
@@ -72,61 +72,61 @@ MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/mss/.gradle/caches
 MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/5254324f15b186efa2a3c6d5121e65b2/AndroidManifest.xml:29:5-67
 MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/5254324f15b186efa2a3c6d5121e65b2/AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:10:22-64
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:10:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:11:5-80
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:11:22-77
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:11:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:12:5-81
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:12:22-78
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:12:22-78
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:13:5-72
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:13:5-72
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:13:22-69
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:13:22-69
 uses-permission#android.permission.DISABLE_KEYGUARD
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:14:5-75
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:14:5-75
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:14:22-72
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:14:22-72
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:15:5-73
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:15:5-73
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:15:22-70
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:15:22-70
 uses-permission#android.permission.READ_CALL_LOG
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:16:5-72
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:16:5-72
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:16:22-69
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:16:22-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:17:5-79
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:17:5-79
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:17:22-76
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:17:22-76
 uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:18:5-81
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:18:22-78
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:18:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:19:5-75
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:19:5-75
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:19:22-72
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:19:22-72
 uses-permission#android.Manifest.permission.READ_PHONE_STATE
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:20:5-84
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:20:5-84
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:20:22-81
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:20:22-81
 uses-permission#android.permission.VIBRATE
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:21:5-66
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:21:5-66
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:21:22-63
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:21:22-63
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:22:5-81
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:22:22-78
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:22:22-78
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:23:5-78
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:23:5-78
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:23:22-75
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:23:22-75
 application
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:25:5-72:19
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:25:5-72:19
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/mss/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/9c6424cbef5dfe829517ceef67128ee0/AndroidManifest.xml:11:5-20
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/mss/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/9c6424cbef5dfe829517ceef67128ee0/AndroidManifest.xml:11:5-20
 MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.3] /home/mss/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.3.aar/4a97a21b2a743763856c48fdccdfa10a/AndroidManifest.xml:11:5-20
@@ -148,91 +148,91 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transf
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/05e421eb0aa905821e4aa4317d487204/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/05e421eb0aa905821e4aa4317d487204/AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:28:9-32
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:28:9-32
 	android:roundIcon
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:29:9-48
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:29:9-48
 	android:icon
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:27:9-43
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:27:9-43
 	android:theme
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:30:9-59
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:30:9-59
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:26:9-62
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:26:9-62
 activity#com.dialer.replicate.activity.SplashActivity
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:31:9-40:20
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:31:9-40:20
 	android:screenOrientation
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:33:13-49
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:33:13-49
 	android:theme
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:34:13-63
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:34:13-63
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:32:13-72
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:32:13-72
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:35:13-39:29
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:36:17-69
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:36:25-66
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:38:17-77
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:38:27-74
 activity#com.dialer.replicate.activity.SearchActivity
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:41:9-44:66
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:41:9-44:66
 	android:screenOrientation
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:43:13-49
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:43:13-49
 	android:theme
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:44:13-63
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:44:13-63
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:42:13-72
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:42:13-72
 activity#com.dialer.replicate.activity.InfoActivity
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:45:9-48:66
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:45:9-48:66
 	android:screenOrientation
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:47:13-49
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:47:13-49
 	android:theme
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:48:13-63
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:48:13-63
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:46:13-70
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:46:13-70
 activity#com.dialer.replicate.activity.DiallerViewActivity
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:49:9-52:66
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:49:9-52:66
 	android:screenOrientation
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:51:13-49
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:51:13-49
 	android:theme
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:52:13-63
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:52:13-63
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:50:13-77
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:50:13-77
 receiver#com.dialer.replicate.AppUtils.PhoneStateService$CallReceiver
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:54:9-61:20
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:54:9-61:20
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:54:19-94
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:54:19-94
 intent-filter#action:name:android.intent.action.PHONE_STATE
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:55:13-57:29
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:55:13-57:29
 action#android.intent.action.PHONE_STATE
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:56:17-76
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:56:17-76
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:56:25-73
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:56:25-73
 intent-filter#action:name:android.intent.action.NEW_OUTGOING_CALL
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:58:13-60:29
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:58:13-60:29
 action#android.intent.action.NEW_OUTGOING_CALL
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:59:17-82
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:59:17-82
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:59:25-79
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:59:25-79
 service#com.dialer.replicate.AppUtils.PhoneStateService
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:63:10-66:37
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:63:10-66:37
 	android:enabled
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:65:10-32
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:65:10-32
 	android:exported
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:66:10-34
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:66:10-34
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:64:10-72
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:64:10-72
 meta-data#io.fabric.ApiKey
-ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:68:9-70:72
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:68:9-70:72
 	android:value
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:70:13-69
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:70:13-69
 	android:name
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml:69:13-44
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:69:13-44
 uses-sdk
-INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
-INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/57348c44e49a403aa4d34a115f536bfa/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/57348c44e49a403aa4d34a115f536bfa/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/6a5289df4168d06f6be3d0a658b5c2c5/AndroidManifest.xml:20:5-44
@@ -285,16 +285,16 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transf
 MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/5254324f15b186efa2a3c6d5121e65b2/AndroidManifest.xml:27:5-43
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/05e421eb0aa905821e4aa4317d487204/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/05e421eb0aa905821e4aa4317d487204/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
-INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
-		INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
-		ADDED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
-		INJECTED from /home/mss/DialANumber/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
 provider#com.crashlytics.android.CrashlyticsInitProvider
 ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/54f06c3bcf6fc41f5e559e86581adfae/AndroidManifest.xml:12:9-16:39
 	android:authorities

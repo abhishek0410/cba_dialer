@@ -1,7 +1,7 @@
-#Fri Dec 07 16:20:52 IST 2018
-base.0=/home/mss/DialANumber/app/build/intermediates/transforms/dexMerger/debug/33
+#Fri Dec 07 17:45:23 IST 2018
+base.0=/home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/build/intermediates/transforms/dexMerger/debug/0
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/mss/DialANumber/app/build/intermediates/transforms/dexMerger/debug/34
+base.1=/home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/build/intermediates/transforms/dexMerger/debug/1

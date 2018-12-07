@@ -1,0 +1,313 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+MERGED from [com.android.support:design:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/a2012d3dc8fb19e6158a2231b43dfe2a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/e36dc3a303f307bf8368b5232e455e50/AndroidManifest.xml:17:1-22:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/mss/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/7390198112ff282075210499bc0779fd/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/6da74586fdf9dd89a6da18d5a78224d7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/4ed0e618b0da7b801eabddd957509801/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/mss/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/7f6a9c50ae7ebcd6b3b8bd82c888d40b/AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/mss/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/2c129c1f5893b2947ec8a62426f27248/AndroidManifest.xml:15:1-21:12
+MERGED from [com.android.support:multidex:1.0.2] /home/mss/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/deac4c8a9c2071998f2d5908f597fb30/AndroidManifest.xml:17:1-22:12
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.3] /home/mss/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.3.aar/ad11474b637b294b0dc54aa94f0fa237/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/23e4e960d885675c07283c4f0f7bb358/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mss/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/059e844a1c7a5aa939d3c8b3bf4f15cc/AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:2:1-19:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.1] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.1.aar/3a8cbc5f23b66b3607202280d523896e/AndroidManifest.xml:23:1-33:12
+MERGED from [com.android.support:transition:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/8c628b9a71184c92e4f931c2d97d897f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/ad5fcbb1c5c985ae29d3fd7f9f1e7065/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/1667ee041ff35fc6b4c7e5be6f7639ed/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/7949c49790d2b0ccbabd49f807cc155e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/eaf920845d0781c1e0e580831ce8bc69/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/b24da9c501f04907e3fdb678cf30253b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/572440d5dca40fd9092369fb2c415a07/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/a79c10670c1dbe4087eea9a3035cff7c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/535dc7b46bc9a01b44a7caa4424ecccf/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/mss/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/73a2ebe6db54f00c967ea374ef2a07a0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/b6734f00d87ac7c8f53a6a523cdf8aab/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/57fa7b06b47ffc1d0b92d329fa07ff16/AndroidManifest.xml:22:1-33:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c633a67c5a900d6d4f3188072fa802c2/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:1-74:12
+	package
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:7:5-73
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:7:22-70
+uses-permission#android.permission.bind_accessibility_service
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:8:5-85
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:8:22-82
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:9:5-69
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:9:22-66
+uses-permission#android.permission.INTERNET
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/535dc7b46bc9a01b44a7caa4424ecccf/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/535dc7b46bc9a01b44a7caa4424ecccf/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/mss/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/73a2ebe6db54f00c967ea374ef2a07a0/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/mss/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/73a2ebe6db54f00c967ea374ef2a07a0/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/b6734f00d87ac7c8f53a6a523cdf8aab/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/b6734f00d87ac7c8f53a6a523cdf8aab/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/57fa7b06b47ffc1d0b92d329fa07ff16/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/57fa7b06b47ffc1d0b92d329fa07ff16/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:13:5-72
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:13:22-69
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:15:5-73
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:15:22-70
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:16:5-72
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:16:22-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:19:22-72
+uses-permission#android.Manifest.permission.READ_PHONE_STATE
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:20:5-84
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:20:22-81
+uses-permission#android.permission.VIBRATE
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:21:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:22:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:23:22-75
+application
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:25:5-72:19
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/mss/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/7390198112ff282075210499bc0779fd/AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/mss/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/7390198112ff282075210499bc0779fd/AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.3] /home/mss/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.3.aar/ad11474b637b294b0dc54aa94f0fa237/AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.3] /home/mss/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.3.aar/ad11474b637b294b0dc54aa94f0fa237/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mss/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/059e844a1c7a5aa939d3c8b3bf4f15cc/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mss/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/059e844a1c7a5aa939d3c8b3bf4f15cc/AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.1] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.1.aar/3a8cbc5f23b66b3607202280d523896e/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.1] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.1.aar/3a8cbc5f23b66b3607202280d523896e/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/535dc7b46bc9a01b44a7caa4424ecccf/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/535dc7b46bc9a01b44a7caa4424ecccf/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/mss/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/73a2ebe6db54f00c967ea374ef2a07a0/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/mss/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/73a2ebe6db54f00c967ea374ef2a07a0/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/b6734f00d87ac7c8f53a6a523cdf8aab/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/b6734f00d87ac7c8f53a6a523cdf8aab/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/57fa7b06b47ffc1d0b92d329fa07ff16/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/57fa7b06b47ffc1d0b92d329fa07ff16/AndroidManifest.xml:31:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c633a67c5a900d6d4f3188072fa802c2/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c633a67c5a900d6d4f3188072fa802c2/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:28:9-32
+	android:roundIcon
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:29:9-48
+	android:icon
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:27:9-43
+	android:theme
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:30:9-59
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:26:9-62
+activity#com.dialer.replicate.activity.SplashActivity
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:31:9-40:20
+	android:screenOrientation
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:33:13-49
+	android:theme
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:34:13-63
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:32:13-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:38:27-74
+activity#com.dialer.replicate.activity.SearchActivity
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:41:9-44:66
+	android:screenOrientation
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:43:13-49
+	android:theme
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:44:13-63
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:42:13-72
+activity#com.dialer.replicate.activity.InfoActivity
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:45:9-48:66
+	android:screenOrientation
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:47:13-49
+	android:theme
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:48:13-63
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:46:13-70
+activity#com.dialer.replicate.activity.DiallerViewActivity
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:49:9-52:66
+	android:screenOrientation
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:51:13-49
+	android:theme
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:52:13-63
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:50:13-77
+receiver#com.dialer.replicate.AppUtils.PhoneStateService$CallReceiver
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:54:9-61:20
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:54:19-94
+intent-filter#action:name:android.intent.action.PHONE_STATE
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:55:13-57:29
+action#android.intent.action.PHONE_STATE
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:56:17-76
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:56:25-73
+intent-filter#action:name:android.intent.action.NEW_OUTGOING_CALL
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:58:13-60:29
+action#android.intent.action.NEW_OUTGOING_CALL
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:59:25-79
+service#com.dialer.replicate.AppUtils.PhoneStateService
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:63:10-66:37
+	android:enabled
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:65:10-32
+	android:exported
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:66:10-34
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:64:10-72
+meta-data#io.fabric.ApiKey
+ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:68:9-70:72
+	android:value
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:70:13-69
+	android:name
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml:69:13-44
+uses-sdk
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/a2012d3dc8fb19e6158a2231b43dfe2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/a2012d3dc8fb19e6158a2231b43dfe2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/e36dc3a303f307bf8368b5232e455e50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/e36dc3a303f307bf8368b5232e455e50/AndroidManifest.xml:20:5-44
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/mss/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/7390198112ff282075210499bc0779fd/AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/mss/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/7390198112ff282075210499bc0779fd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/6da74586fdf9dd89a6da18d5a78224d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/6da74586fdf9dd89a6da18d5a78224d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/4ed0e618b0da7b801eabddd957509801/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/4ed0e618b0da7b801eabddd957509801/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/mss/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/7f6a9c50ae7ebcd6b3b8bd82c888d40b/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/mss/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/7f6a9c50ae7ebcd6b3b8bd82c888d40b/AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/mss/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/2c129c1f5893b2947ec8a62426f27248/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/mss/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/2c129c1f5893b2947ec8a62426f27248/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/mss/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/deac4c8a9c2071998f2d5908f597fb30/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/mss/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/deac4c8a9c2071998f2d5908f597fb30/AndroidManifest.xml:20:5-43
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.3] /home/mss/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.3.aar/ad11474b637b294b0dc54aa94f0fa237/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.3] /home/mss/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.3.aar/ad11474b637b294b0dc54aa94f0fa237/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/23e4e960d885675c07283c4f0f7bb358/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/23e4e960d885675c07283c4f0f7bb358/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mss/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/059e844a1c7a5aa939d3c8b3bf4f15cc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mss/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/059e844a1c7a5aa939d3c8b3bf4f15cc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.1] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.1.aar/3a8cbc5f23b66b3607202280d523896e/AndroidManifest.xml:29:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.1] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.1.aar/3a8cbc5f23b66b3607202280d523896e/AndroidManifest.xml:29:5-44
+MERGED from [com.android.support:transition:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/8c628b9a71184c92e4f931c2d97d897f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/8c628b9a71184c92e4f931c2d97d897f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/ad5fcbb1c5c985ae29d3fd7f9f1e7065/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/ad5fcbb1c5c985ae29d3fd7f9f1e7065/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/1667ee041ff35fc6b4c7e5be6f7639ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/1667ee041ff35fc6b4c7e5be6f7639ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/7949c49790d2b0ccbabd49f807cc155e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/7949c49790d2b0ccbabd49f807cc155e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/eaf920845d0781c1e0e580831ce8bc69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/eaf920845d0781c1e0e580831ce8bc69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/b24da9c501f04907e3fdb678cf30253b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/b24da9c501f04907e3fdb678cf30253b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/572440d5dca40fd9092369fb2c415a07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/572440d5dca40fd9092369fb2c415a07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/a79c10670c1dbe4087eea9a3035cff7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/a79c10670c1dbe4087eea9a3035cff7c/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/535dc7b46bc9a01b44a7caa4424ecccf/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/535dc7b46bc9a01b44a7caa4424ecccf/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/mss/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/73a2ebe6db54f00c967ea374ef2a07a0/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/mss/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/73a2ebe6db54f00c967ea374ef2a07a0/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/b6734f00d87ac7c8f53a6a523cdf8aab/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/b6734f00d87ac7c8f53a6a523cdf8aab/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/57fa7b06b47ffc1d0b92d329fa07ff16/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/mss/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/57fa7b06b47ffc1d0b92d329fa07ff16/AndroidManifest.xml:27:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c633a67c5a900d6d4f3188072fa802c2/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c633a67c5a900d6d4f3188072fa802c2/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		ADDED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/AndroidManifest.xml
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /home/mss/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/a4b453d05ec1848e7496d3a7f3181a68/AndroidManifest.xml:13:13-75
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c633a67c5a900d6d4f3188072fa802c2/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c633a67c5a900d6d4f3188072fa802c2/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/mss/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c633a67c5a900d6d4f3188072fa802c2/AndroidManifest.xml:26:13-58

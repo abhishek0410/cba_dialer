@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-normal-xhdpi-v4/values-normal-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/res/values-normal-xhdpi/dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "44",
+                        "endOffsets": "57"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "44",
+                        "endOffsets": "95"
+                    }
+                }
+            ]
+        }
+    ]
+}

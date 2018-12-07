@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mss/DialANumber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml",
+            "outputFile": "/home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml",
             "map": [
                 {
                     "source": "/home/mss/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/4e7a4aa6fef9d905acc1e8733f76d90f/res/values-is/values-is.xml",
