@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:layout_margin="@dimen/text_size_normal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_emergency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:paddingRight="@dimen/text_size_normal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="3sp"
+                        android:src="@mipmap/ico_emergency" />
+
+                    <TextView
+                        android:id="@+id/tv_emergency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/text_size_xxlarge"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/text_size_very_small"
+                        android:text="EMERGENCY"
+                        android:textAppearance="@style/FontHeavyBold"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/text_size_normal" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_toLeftOf="@+id/iv_contact"
+                    android:layout_toRightOf="@+id/ll_emergency" />
+
+                <ImageView
+                    android:id="@+id/iv_contact"
+                    android:layout_width="@dimen/text_size_xxlarge"
+                    android:layout_height="@dimen/text_size_xxlarge"
+                    android:layout_toLeftOf="@+id/iv_info"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:src="@drawable/ico_contact" />
+
+                <ImageView
+                    android:id="@+id/iv_info"
+                    android:layout_width="@dimen/text_size_xxlarge"
+                    android:layout_height="@dimen/text_size_xxlarge"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:src="@drawable/ic_info" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight=".15"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_phone_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:focusable="false"
+                android:gravity="center"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textAppearance="@style/FontLight"
+                android:textColor="@color/app_color"
+                android:textSize="@dimen/text_size_xlarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".55"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dark_grey" />
+
+            <GridView
+                android:id="@+id/grid_view"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:columnWidth="100dp"
+                android:gravity="center"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight=".15"
+            android:gravity="top"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/text_size_small"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33" />
+
+            <LinearLayout
+                android:id="@+id/ll_call"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".34"
+                android:background="@drawable/rounded_save_button"
+                android:elevation="@dimen/text_size_very_small"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/text_size_small"
+                    android:layout_marginTop="@dimen/text_size_small"
+                    android:src="@mipmap/ico_call" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_clear_no"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight=".33"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="10dp"
+                android:src="@mipmap/ico_delete"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

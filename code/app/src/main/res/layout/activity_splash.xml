@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical"
+    tools:context=".withapi.activity.SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+        <ImageView
+            android:layout_width="@dimen/app_icon_size"
+            android:layout_height="@dimen/app_icon_size"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ico_call_large" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.58">
+
+
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_top_splash"
+            android:text="Welcome to the"
+            android:textAppearance="@style/FontHeavyBold"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/text_size_xlarge"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_welcome"
+            android:layout_centerHorizontal="true"
+            android:text="Optus Dialler App"
+            android:textAppearance="@style/FontHeavyBold"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/text_size_xlarge" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="v1.6"
+            android:textAppearance="@style/FontLight"
+            android:textSize="@dimen/text_size_normal"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12">
+
+        <TextView
+            android:id="@+id/tv_powered_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Powered by"
+            android:textAppearance="@style/FontLight"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_middle" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_powered_by"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/text_size_very_small"
+            android:src="@mipmap/logo_optus" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

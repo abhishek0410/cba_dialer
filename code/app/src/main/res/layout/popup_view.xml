@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rv_parentview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="2sp"
+        android:background="@drawable/rounded_corner_bg">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/text_size_very_small">
+
+            <LinearLayout
+                android:id="@+id/ll_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_size_very_small"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/FontHeavyBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="** = Hold"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_midnormal" />
+
+                <TextView
+                    style="@style/FontHeavyBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="*0 = Resume"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_midnormal" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_size_very_small"
+                android:layout_marginRight="@dimen/text_size_very_small"
+                android:layout_toRightOf="@+id/ll_txt">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/fill_circle_bg" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/white_add_call" />
+
+            </RelativeLayout>
+
+            <!-- <TextView
+                 style="@style/FontHeavyBold"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:paddingLeft="90dp"
+                 android:paddingRight="90dp"
+                 android:text="Add Call"
+                 android:textAppearance="@style/FontLight"
+                 android:textColor="@color/app_color"
+                 android:textSize="@dimen/text_size_medium" />
+
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="@dimen/text_size_very_small"
+                 android:src="@mipmap/ico_return" />-->
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnGroupEmergency"
+        style="@style/ContextMenuButton"
+        android:textColor="@color/black"
+        android:title="Group Emergency Hotline" />
+
+    <item
+        android:id="@+id/btnSecurityOperation"
+        style="@style/ContextMenuButton"
+        android:textColor="@color/black"
+        android:title="Security Operations Centre" />
+
+    <item
+        android:id="@+id/btnGroupSecurity"
+        style="@style/ContextMenuButton"
+        android:textColor="@color/black"
+        android:title="Group Security Call Centre" />
+    <item
+        android:id="@+id/btnFrontLine"
+        style="@style/ContextMenuButton"
+        android:textColor="@color/black"
+        android:title="Frontline Support" />
+    <item
+        android:id="@+id/btnCustomerBanking"
+        style="@style/ContextMenuButton"
+        android:textColor="@color/black"
+        android:title="Customer banking + Credit Cards" />
+    <item
+        android:id="@+id/btnVoiceMail"
+        style="@style/ContextMenuButton"
+        android:textColor="@color/black"
+        android:title="Voicemail" />
+
+    <item
+        android:id="@+id/btnCBABranch"
+        style="@style/ContextMenuButton"
+        android:textColor="@color/black"
+        android:title="Optus CBA Branch Helpdesk" />
+
+    <item
+        android:id="@+id/btnAllContacts"
+        style="@style/ContextMenuButton"
+        android:textColor="@color/black"
+        android:title="View All Contacts" />
+
+
+
+</menu>

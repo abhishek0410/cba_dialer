@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_welcome">Welcome to the</string>
+    <string name="app_name">Dialer</string>
+    <string name="powered_by">Powered by</string>
+    <string-array name="contactName">
+        <item>Optus CBA Branch Helpdesk</item>
+        <item>Frontline Support Policy and Procedures</item>
+        <item>Credit Card Help Desk</item>
+        <item>Lender Assist</item>
+        <item>Credit Card Merchant retention</item>
+        <item>Collections &amp; Credit Solutions hardship team</item>
+        <item>CommInsure Insurance Assist Line</item>
+        <item>CommInsure Life</item>
+        <item>Commonwealth Financial Services</item>
+        <item>Business Banking</item>
+        <item>CommBiz</item>
+        <item>Global Markets Today</item>
+        <item>HR Direct</item>
+        <item>Property Assistance Line</item>
+        <item>Security Operations Centre</item>
+        <item>Internal Fraud and Unethical Behaviour</item>
+        <item>Group Emergency Hotline</item>
+        <item>Group Security Call Centre</item>
+        <item>IT Service Desk</item>
+        <item>Telstra</item>
+        <item>CommSee Service Desk</item>
+        <item>Branch Help Desks</item>
+        <item>VC Technical issues</item>
+        <item>VC Process Enquiries</item>
+        <item>Employee Assistance Program</item>
+        <item>Our branch - employee banking</item>
+        <item>Voicemail</item>
+    </string-array>
+
+    <string-array name="contactNumberWithoutCode">
+        <item>01300728403</item>
+        <item>01300137762</item>
+        <item>0132221</item>
+        <item>01300730447</item>
+        <item>01800230177</item>
+        <item>01300720814</item>
+        <item>01300132420</item>
+        <item>0131056</item>
+        <item>0132015</item>
+        <item>0131998</item>
+        <item>0132339</item>
+        <item>0132219</item>
+        <item>01800989696</item>
+        <item>01300888274</item>
+        <item>01300701251</item>
+        <item>01800738856</item>
+        <item>01800643410</item>
+        <item>01800023919</item>
+        <item>01300137762</item>
+        <item>01300137762</item>
+        <item>01300137762</item>
+        <item>01300137762</item>
+        <item>01300137762</item>
+        <item>01300137762</item>
+        <item>01300360364</item>
+        <item>01800054000</item>
+        <item>0228099</item>
+    </string-array>
+</resources>

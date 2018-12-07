@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/mss/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        revision="25.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okhttp-3.3.0-393c73398a26f3e9fa0e35abdf5f91a83aef9e22.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/dfba4550b049b651ab6b6dfe75780851fe0bc8b6/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="6f8bee169957506578df40084c46dcce783c70fe">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-3259e532a2fa03209622e8f1517e69f798c3e131.jar" />
+    </item>
+    <item
+        jar="/home/mss/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/25.4.0/f6a2fc748ae3769633dea050563e1613e93c135e/support-annotations-25.4.0.jar"
+        revision="25.0.2"
+        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-25.4.0-4f9319cb87af508699b0534b1baaa340087bd825.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/9b8e7cfd82af4c3ddfb5afb840ed0673bfac9913/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e3f148e01323202bad8d71a7ef84307f4a221c6f.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/933ffe8b20a8d24368820342abdda1feb3538068/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f6398ab572efdf147f3c90d99eebba9aecffad1b.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/701b256f2c28c93d90295532bdd44525194dd383/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-1fecbf0a3abe9e2a98b2f05481897bb2713b0554.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/27e46a95e3c4b9b919102aadd052e4fba4ab4c68/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-c637fd7e449f2d934c12557d68d53564264bb40d.jar" />
+    </item>
+    <item
+        jar="/home/mss/adt/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/constraint-layout-solver-1.0.2-5c4bd0431ddf828caab360464a907f278d7cf23d.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/197327c0c4a2623afc0777bcba49602988d53522/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-8cba1b0d1f2d0fdea21f85848f2dade7c03e376c.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/98ba43c63a8a1f9bbe2fbb1114688b9e0a2d603d/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-62b7ba9dcff6b5a2ac19afcf148c043bc9c841a1.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/b3103b3da2e816fd4fc332814512d4daf1373177/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-8da3f9660f35bf4267ade5d50b60bf504514c5e7.jar" />
+    </item>
+    <item
+        jar="/home/mss/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/retrofit-2.1.0-97fa85ecfa0c4c80ebd0b06c0524288af9b2fa4a.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/24a355eda1ad1c522513cf63f13ebf907cc21db1/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-54945e237c9152f96ff127a3dd6476da0291ae80.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/5269e765fe8bd19a09a00e659e5bc0e31724002f/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-39189ddfbdce977eeba37c54b81936f8ac62d856.jar" />
+    </item>
+    <item
+        jar="/home/mss/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.8.1/bc373fb6bc7bca3035041b924f158fd2b946ee8d/butterknife-annotations-8.8.1.jar"
+        revision="25.0.2"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/butterknife-annotations-8.8.1-5a915889cc1b5445592457d024c3a0ae94992e66.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/c8094ba07bb771737ead5fd8b7d46a8174a2d227/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-91de28be448f81f2e6d33c7d2578757f7267c9ce.jar" />
+    </item>
+    <item
+        jar="/home/mss/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        revision="25.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okio-1.8.0-9925d2721b45854b852eb00a180c8fbe1a881403.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/c6f746af835e7fd8dcf69e59162747e71e6c2c27/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f99ff4ae2776a907da12e420ff68e0d1a32f7a61.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/d4ee5243a5adb8aae3ce7b3848342a8cd49edcaa/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f81ba04adb410da3a95c4cd6f534ad1ac318c3f3.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/aad9507ce93020acfacc36aed8bb0eccd43bd580/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e4fa96fa999b972af3f0b293f9345acae3ca77fb.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/27fabd13d989e4a7044f824ec8bf58fdd507ee18/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f1383e5dbc988fa7da38905ecf98594e2255770e.jar" />
+    </item>
+    <item
+        jar="/home/mss/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.1/57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb/rxjava-2.0.1.jar"
+        revision="25.0.2"
+        sha1="57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/rxjava-2.0.1-1c204ad1d24799859971bae91d3825ab1ac36cc2.jar" />
+    </item>
+    <item
+        jar="/home/mss/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
+        revision="25.0.2"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/reactive-streams-1.0.0-d1de4b902556d6a5c7e354c3e651b4f9d8c6a05e.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/9211cefd1fba3b9993229a9933c40bb1e352a00c/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-0390dcb70213cd82f3deca51bae179385526a10e.jar" />
+    </item>
+    <item
+        jar="/home/mss/.android/build-cache/ca90900398d75dc295b45c204f73aaf05748cf44/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="/home/mss/DialANumber/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-60285201cb2bf151c07900f803fab7a2d567b018.jar" />
+    </item>
+
+</items>

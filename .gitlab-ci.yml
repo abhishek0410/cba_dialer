@@ -1,0 +1,181 @@
+image: openjdk:8-jdk
+
+stages:
+  - lint
+  - test
+  - build
+  - package
+  - package_upload_for_debug_develop
+  - package_upload_for_staging_release
+ 
+# Cache modules
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+  - code/.android/
+
+# Build
+.build_template: &build_template_def
+  stage: lint
+  artifacts:
+    expire_in: 4 hours
+    paths:
+    - code/app/build/reports/
+    - code/.android/
+
+  before_script:
+    - cd code
+    # Extract the SDK version that we're building against
+    #- export ANDROID_COMPILE_SDK=`egrep '^[[:blank:]]+compileSdkVersion'  app/build.gradle | awk '{print $2}'`
+
+    # Todo
+    - export ANDROID_SDK_VERSION=4333796
+    - export ANDROID_COMPILE_SDK=27
+
+    # Explict output for logging purpose only
+    - echo $ANDROID_SDK_VERSION
+    - echo $ANDROID_COMPILE_SDK
+
+    # Fetch the specified SDK tools version to build with
+    - sudo wget --quiet --output-document=/tmp/sdk-tools-linux.zip https://web.staging02.com/android-sdk/sdk-tools-linux-$ANDROID_SDK_VERSION.zip
+    - unzip -n /tmp/sdk-tools-linux.zip -d .android
+
+    # Set up environment variables
+    - export ANDROID_HOME=$PWD/.android
+    - export PATH=$PATH:$PWD/.android/platform-tools/
+
+    # Install platform tools and Android SDK for the compile target
+    - echo y | .android/tools/bin/sdkmanager "platforms;android-${ANDROID_COMPILE_SDK}"
+
+    - chmod +x ./gradlew
+
+build_staging_debug:
+  stage: build
+  artifacts:
+    expire_in: 4 hours
+    paths:
+    - code/app/build/outputs/
+  only:
+    - develop
+  before_script:
+    - export ANDROID_HOME=$PWD/code/.android
+    - export PATH=$PATH:$PWD/code/.android/platform-tools/
+
+  script:
+    - cd code
+    - chmod +x ./gradlew
+    - ./gradlew assembleDebug
+
+build_staging_release:
+  stage: build
+  artifacts:
+    expire_in: 4 hours
+    paths:
+    - code/app/build/outputs/
+  only:
+    - /^release-.*/
+  before_script:
+    - export ANDROID_HOME=$PWD/code/.android
+    - export PATH=$PATH:$PWD/code/.android/platform-tools/
+
+  script:
+    - cd code
+    - chmod +x ./gradlew
+    - ./gradlew assembleStaging    
+
+# LINTING CODE
+lint:
+  <<: *build_template_def
+  only:
+    - /^feature-.*/
+    - /^task-.*/
+    - develop
+    - /^release-.*/
+    - master
+
+  script:
+    - ./gradlew lint
+
+# UNIT TESTING
+unit_test:
+  stage: test
+  only:
+    - /^feature-.*/
+    - develop
+    - /^release-.*/
+    - master
+
+  before_script:
+    - export ANDROID_HOME=$PWD/code/.android
+    - export PATH=$PATH:$PWD/code/.android/platform-tools/
+
+  script:
+    - cd code
+    - chmod +x ./gradlew
+    - ./gradlew test
+
+# PACKAGE APK FOR DOWNLOADING
+.package_template: &package_template_def
+  before_script:
+    - export VERSION_NAME=`egrep '^[[:blank:]]+versionName[[:blank:]]'  app/build.gradle | awk '{print $2}' | sed s/\"//g`
+    - export VERSION_CODE=`egrep '^[[:blank:]]+versionCode[[:blank:]]'  app/build.gradle | awk '{print $2}'`
+    - mkdir -p deliverables
+
+    # Store some information about the build
+    - touch ./deliverables/info.txt
+    - echo "Build date          $(date)"                >> ./deliverables/info.txt
+    - echo "App version name    ${VERSION_NAME}"        >> ./deliverables/info.txt
+    - echo "App version code    ${VERSION_CODE}"        >> ./deliverables/info.txt  
+    - echo "Git branch          ${CI_COMMIT_REF_NAME}"  >> ./deliverables/info.txt
+    - echo "Git commit          ${CI_COMMIT_SHA}"       >> ./deliverables/info.txt
+    - echo "Gitlab pipeline     ${CI_PIPELINE_ID}"      >> ./deliverables/info.txt
+
+package_staging_debug:
+  <<: *package_template_def
+  stage: package
+  environment: Release
+  only:
+    - develop
+  script:
+    - mv code/app/build/outputs/apk/debug/app-debug.apk ./deliverables/${CI_PROJECT_NAME}-v${CI_PIPELINE_ID}-debug.apk
+  artifacts:
+    expire_in: 4 weeks
+    paths:
+    - deliverables
+
+package_staging_release:
+  <<: *package_template_def
+  stage: package
+  environment: Release
+  only:
+    - /^release-.*/
+  script:
+    - mv code/app/build/outputs/apk/staging/app-staging.apk ./deliverables/${CI_PROJECT_NAME}-v${CI_PIPELINE_ID}-staging.apk
+  artifacts:
+    expire_in: 4 weeks
+    paths:
+    - deliverables
+
+package_upload_for_debug_develop:
+  <<: *package_template_def
+  stage: package_upload_for_debug_develop
+  environment: Release
+  only:
+    - develop
+    - master
+  script:
+    - cp ./deliverables/${CI_PROJECT_NAME}-v${CI_PIPELINE_ID}-debug.apk ops/${CI_PROJECT_NAME}-v${CI_PIPELINE_ID}-debug.apk
+    - cd ops
+    - source hockeyapp-uploader-for-debug.sh
+
+package_upload_for_staging_release:
+  <<: *package_template_def
+  stage: package_upload_for_staging_release
+  environment: Release
+  only:
+    - /^release-.*/
+    - master
+  script:
+    - cp ./deliverables/${CI_PROJECT_NAME}-v${CI_PIPELINE_ID}-staging.apk ops/${CI_PROJECT_NAME}-v${CI_PIPELINE_ID}-staging.apk
+    - cd ops
+    - source hockeyapp-uploader-for-staging.sh

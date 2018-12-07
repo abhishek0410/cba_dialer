@@ -1,0 +1,3 @@
+# Referenced at /home/mss/DialANumber/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:29
+-keep class com.dialer.replicate.app.AppController { <init>(...); }
+
