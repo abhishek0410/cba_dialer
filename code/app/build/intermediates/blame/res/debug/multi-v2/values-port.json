@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "/home/manish/Desktop/cba_dialer/code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/home/mss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/55f88f542303659679d28848867e999c/res/values-port/values-port.xml",
+                    "source": "/home/manish/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/ad2a6f24379c71ca614fabfa84bc808d/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -7,6 +7,7 @@ import android.app.ActivityManager;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
@@ -14,6 +15,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Vibrator;
+import android.support.v4.app.ActivityCompat;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
@@ -61,7 +63,6 @@ public class DiallerViewActivity extends Activity {
     LinearLayout llCall;
     @BindView(R.id.iv_clear_no)
     ImageView ivClearNo;
-    public static String codeNumber = "0290372817";
     public static String agentNumber = "";
     public static EditText etPhoneNo;
 
@@ -74,9 +75,6 @@ public class DiallerViewActivity extends Activity {
         etPhoneNo = (EditText) findViewById(R.id.et_phone_no);
         handler = new Handler();
         rxPermissions = new RxPermissions(this);
-        if (Build.VERSION.SDK_INT >= 23) {
-            permission();
-        }
         InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         imm.hideSoftInputFromWindow(etPhoneNo.getWindowToken(), 0);
         gridView.setAdapter(new DiallerAdapter(this));
@@ -160,7 +158,7 @@ public class DiallerViewActivity extends Activity {
             public void onClick(View view) {
                 if (DiallerAdapter.stringList != null && DiallerAdapter.stringList.size() > 0) {
                     Intent intent = null;
-                    intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + codeNumber));
+                    intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + etPhoneNo.getText().toString()));
                     startActivity(intent);
                     serviceStart("true", etPhoneNo.getText().toString(), agentNumber);
                     finishAffinity();
@@ -185,44 +183,6 @@ public class DiallerViewActivity extends Activity {
         callPermission();
     }
 
-    public String getPhoneNumber() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            List<SubscriptionInfo> subscription = SubscriptionManager.from(getApplicationContext()).getActiveSubscriptionInfoList();
-            if (subscription != null) {
-                SubscriptionInfo info = subscription.get(0);
-                String userNumber = info.getNumber();
-                if (userNumber != null && !userNumber.isEmpty()) {
-                    agentNumber = userNumber.substring(3);
-                }
-            }
-        } else {
-            TelephonyManager telemamanger = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
-            try {
-                @SuppressLint("MissingPermission") String userNumber = telemamanger.getLine1Number();
-                if (userNumber != null && !userNumber.isEmpty()) {
-                    agentNumber = userNumber.substring(3);
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-        return agentNumber;
-    }
-
-    public void dialogToEnterPhoneNumber() {
-        if (getPhoneNumber() == null || getPhoneNumber().isEmpty()) {
-            if (AppController.getmAppPreferences().getPrefrenceString("agentNumber").isEmpty()) {
-                Utils.enterPhoneNumberDialog(this);
-            } else {
-                agentNumber = AppController.getmAppPreferences().getPrefrenceString("agentNumber");
-            }
-        }
-    }
-
-
-    public void permission() {
-        serviceStart("false", "", agentNumber);
-    }
 
     @SuppressLint("MissingPermission")
     public void serviceStart(String value, String dialNumber, String agentNumber) {
@@ -251,7 +211,6 @@ public class DiallerViewActivity extends Activity {
         rxPermissions.requestEach(Manifest.permission.CALL_PHONE, Manifest.permission.READ_CALL_LOG, Manifest.permission.READ_PHONE_STATE, Manifest.permission.WRITE_CALL_LOG)
                 .subscribe(permission -> {
                     if (permission.granted) {
-                        dialogToEnterPhoneNumber();
                     } else {
                         Toast.makeText(DiallerViewActivity.this, "To use this app you need grant these permissions.", Toast.LENGTH_SHORT).show();
                         callPermission();
@@ -273,31 +232,31 @@ public class DiallerViewActivity extends Activity {
                         startActivity(new Intent(DiallerViewActivity.this, SearchActivity.class));
                         break;
                     case R.id.btnCBABranch:
-                        String cbaBranchNumber = "01300728403";
+                        String cbaBranchNumber = "1300728403";
                         onClickItem(cbaBranchNumber);
                         break;
                     case R.id.btnGroupEmergency:
-                        String groupNo = "01800643410";
+                        String groupNo = "1800643410";
                         onClickItem(groupNo);
                         break;
                     case R.id.btnSecurityOperation:
-                        String securityNo = "01300701251";
+                        String securityNo = "1300701251";
                         onClickItem(securityNo);
                         break;
                     case R.id.btnGroupSecurity:
-                        String groupsecurityNo = "01800023919";
+                        String groupsecurityNo = "1800023919";
                         onClickItem(groupsecurityNo);
                         break;
                     case R.id.btnFrontLine:
-                        String frontLineNo = "01300137762";
+                        String frontLineNo = "1300137762";
                         onClickItem(frontLineNo);
                         break;
                     case R.id.btnCustomerBanking:
-                        String customerNo = "0132221";
+                        String customerNo = "132221";
                         onClickItem(customerNo);
                         break;
                     case R.id.btnVoiceMail:
-                        String voiceMailNo = "0228099";
+                        String voiceMailNo = "0279228000,228099%23";
                         onClickItem(voiceMailNo);
                         break;
                 }
@@ -313,7 +272,7 @@ public class DiallerViewActivity extends Activity {
         rxPermissions.request(Manifest.permission.CALL_PHONE)
                 .subscribe(granted -> {
                     if (granted) {
-                        Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + codeNumber));
+                        Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + number));
                         startActivity(intent);
                         serviceStart("true", number, agentNumber);
                         finishAffinity();

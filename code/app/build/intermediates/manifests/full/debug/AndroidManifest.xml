@@ -32,7 +32,6 @@
         android:icon="@mipmap/ic_app_icon"
         android:label="Dialler"
         android:roundIcon="@mipmap/ic_app_icon"
-        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity
             android:name="com.dialer.replicate.activity.SplashActivity"

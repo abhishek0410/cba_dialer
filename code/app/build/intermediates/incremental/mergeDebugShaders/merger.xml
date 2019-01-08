@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/manish/Desktop/cba_dialer/code/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/manish/Desktop/cba_dialer/code/app/src/debug/shaders"/></dataSet></merger>

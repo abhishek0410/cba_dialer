@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/manish/Desktop/cba_dialer/code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/mss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/55f88f542303659679d28848867e999c/res/values-v24/values-v24.xml",
+                    "source": "/home/manish/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/ad2a6f24379c71ca614fabfa84bc808d/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/mss/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/de0ec31f16af7a9b63aa98267a28fab8/res/values-v24/values-v24.xml",
+                    "source": "/home/manish/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/e4e626f6ea444a8ea69042398cd28e53/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

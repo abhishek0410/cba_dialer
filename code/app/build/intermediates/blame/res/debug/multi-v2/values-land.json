@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/manish/Desktop/cba_dialer/code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/mss/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/57348c44e49a403aa4d34a115f536bfa/res/values-land/values-land.xml",
+                    "source": "/home/manish/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/e6da1b2c811554c96b60750154e7257a/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/mss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/55f88f542303659679d28848867e999c/res/values-land/values-land.xml",
+                    "source": "/home/manish/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/ad2a6f24379c71ca614fabfa84bc808d/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

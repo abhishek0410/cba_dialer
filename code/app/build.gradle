@@ -10,6 +10,7 @@ buildscript {
 }
 allprojects {
     repositories {
+        // The order in which you list these repositories matter.
         google()
         jcenter()
     }
@@ -79,3 +80,4 @@ crashlytics {
     androidNdkOut 'src/main/obj'
     androidNdkLibsOut 'src/main/libs'
 }
+apply plugin: 'com.android.application'

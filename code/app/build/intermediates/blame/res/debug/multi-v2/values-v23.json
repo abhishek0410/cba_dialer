@@ -1,21 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mss/Desktop/Dialler/gitDialerCli/cba_dialer/code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/manish/Desktop/cba_dialer/code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/mss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/55f88f542303659679d28848867e999c/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
-                    }
-                },
-                {
-                    "source": "/home/mss/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/7b82d5c7be5f1e01aec484762b9a3b7c/res/values-v23/values-v23.xml",
+                    "source": "/home/manish/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/77c2a02ce5d66437505adcb19e7fe138/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -31,6 +20,17 @@
                         "endLines": "39",
                         "endColumns": "12",
                         "endOffsets": "2791"
+                    }
+                },
+                {
+                    "source": "/home/manish/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/ad2a6f24379c71ca614fabfa84bc808d/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
                     }
                 }
             ]

@@ -64,7 +64,7 @@ public class ContactAdapter extends BaseAdapter {
             @SuppressLint("MissingPermission")
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + DiallerViewActivity.codeNumber));
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numberList[position]));
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
                 serviceStart("true", context, numberList[position]);
